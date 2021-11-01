@@ -9,7 +9,7 @@ export default function Create() {
   const [checkbox, setCheckbox] = useState(false);
 
   const postData =()=>{
-    axios.post('https://617d65da1eadc500171364ec.mockapi.io/fakeData',{
+    axios.post(`https://60fbca4591156a0017b4c8a7.mockapi.io/fakeData`,{
       firstName,
       lastName,
       checkbox
